@@ -12,7 +12,7 @@ function carregar() {
         corpo.style.background = 'linear-gradient(to bottom, var(--alabaster), var(--vanilla), var(--field-drab)'
         título.style.color = 'var(--field-drab)'
         rodape.style.color = 'var(--field-drab)'
-        seção.style.background = 'var(--alabaster'
+        seção.style.background = 'var(--alabaster)'
 
 
     } else if (hora >= 12 && hora < 18){
