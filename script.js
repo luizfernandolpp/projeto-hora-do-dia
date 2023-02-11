@@ -1,8 +1,7 @@
 function carregar() {       // Função com evento "onload" -> irá executar sempre que a página for carregada;
     var msg = window.document.getElementById('msg')   // variável de ligação com a mensagem que informa as horas;
     var img = window.document.getElementById('img')   // variável de ligação com a imagem a ser escolhida de acordo com a hora; 
-    //var hora = new Date().getHours()                // variável que recebe a hora de acordo com o fuso do sistema do usuário;
-    var hora = 19
+    var hora = new Date().getHours()                // variável que recebe a hora de acordo com o fuso do sistema do usuário;
     var título = window.document.getElementById('título')           // variável para modificações no título da página;
     var rodape = window.document.getElementById('rodapé')           // variável para modificações no rodapé da página;
     var seção = window.document.getElementById('section')           // variável para modificações na seção da página.
